@@ -1,0 +1,32 @@
+{
+  "name": "labs_js",
+  "version": "1.0.0",
+  "description": "This is test project.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo test",
+    "start": "node index.js",
+    "lint": "eslint .",
+    "deploy": "echo $TRAVIS_BRANCH, $ZEIT_KEY",
+    "build": "echo build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aartisdead/project.git"
+  },
+  "author": "DaskerSet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aartisdead/project/issues"
+  },
+  "homepage": "https://github.com/aartisdead/project.git",
+  "devDependencies": {
+    "eslint": "^5.15.0",
+    "now": "^14.0.2"
+  },
+  "dependencies": {
+    "http-proxy": "^1.11.1",
+    "npm": "^6.9.0",
+    "url": "^0.10.3"
+  }
+}
